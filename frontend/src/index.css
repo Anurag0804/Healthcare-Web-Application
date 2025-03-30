@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Theme Variables */
+@theme {
+  /* COLOR */
+  --color-accent-1: rgba(66, 66, 78, 1);
+  --color-accent-2: rgba(60, 61, 72, 1);
+  --color-accent-3: rgba(51, 51, 62, 1);
+  --color-accent-4: rgba(40, 41, 52, 1);
+  --color-accent-5: oklch(0.707 0.022 261.325);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-drop-shadow-color: rgba(0, 0, 0, 0.25);
+  --color-primary: rgba(171, 240, 124, 1);
+  --color-danger: oklch(0.637 0.237 25.331);
+  --color-secondary: rgba(213, 238, 225, 1);
+  --color-tertiary: rgba(106, 117, 146, 1);
+  --color-white: rgba(255, 255, 255, 1);
+
+  /* DROP SHADOW */
+  --drop-shadow-custom: 4px 4px 6px rgba(0, 0, 0, 0.25);
+
+  /* INNER SHADOW */
+  --inner-shadow-custom: inset 4px 4px 6px rgba(0, 0, 0, 0.25);
+
+  /* FONT */
+  --font-inter: "Inter", sans-serif;
+
+  /* BORDER RADIUS */
+  --radius-ten: 10px;
+  --radius-seven: 7px;
+}
+
+/* Custom class for inner shadow */
+.inner-shadow {
+  box-shadow: var(--inner-shadow-custom);
+}
+
+/* Custom Scrollbar theme */
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #8ffcdf7c, #08ce856b);
+    border-radius: 10px;
+    border: none;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #56ecc4, #059669); 
+  }
+}
+
+
+.no-select {
+  user-select: none; /* Non-standard syntax */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
