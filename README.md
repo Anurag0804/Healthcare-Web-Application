@@ -66,7 +66,7 @@
 
 ## ✨ Demo Website
 
-We will host the demo website at [https://swiftcare-qwertyfusion.vercel.app](https://swiftcare-qwertyfusion.vercel.app) in future. Stay tuned!
+We will host the demo website at [https://swiftcare-anurag0804.vercel.app/](https://swiftcare-anurag0804.vercel.app/) in future. Stay tuned!
 
 ---
 
@@ -82,7 +82,7 @@ See the [LICENSE](./LICENSE) file for more details.
 ### 1️⃣ Clone the Repository
 
 ```bash
-https://github.com/QwertyFusion/SwiftCare.ai.git
+https://github.com/Anurag0804/Healthcare-Web-Application
 cd SwiftCare.ai
 ```
 
@@ -217,11 +217,3 @@ Now, open [http://localhost:5173](http://localhost:5173) in your browser to see 
 </a>
 </p>
 
-<!-- Developer Info -->
-<h2>💻 Developer</h2>
-<ul>
-  <li><a href="https://github.com/QwertyFusion">[@QwertyFusion]</a> - Team Lead, Code Quality Assurance, backend, Dashboard, Symptom Analyzer, Smart Test Guide, Health-Vault, AI Agent, OCR + AI Analysis, and database implementation.</li>
-  <li><a href="https://github.com/SHREEYA-DAS">[@SHREEYA-DAS]</a> - User Authentication debugging & integration, and E-Prescription Page.</li>
-  <li><a href="https://github.com/Apratim23">[@Apratim23]</a> - User Authentication back-end, mailtrap implementation and user model implementation in database.</li>
-  <li><a href="https://github.com/Anurag0804">[@Anurag0804]</a> - User Authentication front-end and mailtrap implementation.</li>
-</ul>
