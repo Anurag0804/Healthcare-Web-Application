@@ -151,7 +151,7 @@ const HomePage = () => {
                     </p>
                     <div className="flex flex-row justify-end items-end no-select">
                         <a
-                            href="https://github.com/QwertyFusion/SwiftCare.ai"
+                            href="https://github.com/Anurag0804/Healthcare-Web-Application"
                             target="_blank"
                         >
                             <motion.button
